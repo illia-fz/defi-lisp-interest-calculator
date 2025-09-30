@@ -1,4 +1,5 @@
 ;; Compound interest calculator in Lisp
+;; Note: This script calculates compound interest.
 (defun compound (principal rate periods)
   (* principal (expt (+ 1 rate) periods)))
 
